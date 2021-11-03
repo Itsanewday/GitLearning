@@ -1,1 +1,3 @@
 第一个git文件，希望养成git管理工程的好习惯！
+熟悉git命令：
+常用命令status，add -A, commit... 均配合git使用
