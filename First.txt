@@ -14,3 +14,5 @@ ssh-keygen -t rsa -C "上述电子邮箱"
 
 
 之后每次commit后，仅执行git push 即可关联到github。
+
+git log 后退出日志模式的方法输入Q
