@@ -1,6 +1,7 @@
 第一个git文件，希望养成git管理工程的好习惯！
 熟悉git命令：
 常用命令status，add -A, commit... 均配合git使用
+完整的commit命令： git commit -m "修改说明"
 显示汉字文件名：git config --global core.quotepath false
 配置github
 git config --global user.name "用户名"
