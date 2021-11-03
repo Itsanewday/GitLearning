@@ -1,3 +1,15 @@
 第一个git文件，希望养成git管理工程的好习惯！
 熟悉git命令：
 常用命令status，add -A, commit... 均配合git使用
+显示汉字文件名：git config --global core.quotepath false
+配置github
+git config --global user.name "用户名"
+git config --global user.email "电子邮箱"
+生成ssh key
+ssh-keygen -t rsa -C "上述电子邮箱"
+
+完成好到对应文件下复制ssh信息，并登录github，点击个人信息->设置->SSH and GPG keys 创建并粘贴。
+随后在github创建一个新的respository, 无需添加readme等.(若添加需执行git pull origin master 复制到本地.)之后，执行git push -u origin master 将本地仓库上传至github 并进行关联。
+
+
+之后每次commit后，仅执行git push 即可关联到github。
